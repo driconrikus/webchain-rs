@@ -33,7 +33,7 @@ serde_json = "1.0"
 serde_derive = "1.0"
 glob = "0.2"
 uuid = { version = "0.5", features = ["rustc-serialize", "v4"] }
-rust-crypto = "0.2"
+rust-crypto = { git = "https://github.com/driconrikus/rust-crypto" }
 secp256k1 = "0.6"
 rand = "0.3"
 byteorder="1.0"
